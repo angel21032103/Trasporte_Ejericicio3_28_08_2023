@@ -12,7 +12,23 @@ namespace Trasporte_Ejericicio3_28_08_2023
         {
 
             MostarPrecio("Ferrari",1000);
+            Acelerar();
+            Frenar();
 
         }
+
+        #region Métodos
+        public override void Acelerar()
+        {
+            base.Acelerar();
+        }
+
+        public override void Frenar()
+        {
+            base.Frenar();
+        }
+
+
+        #endregion
     }
 }

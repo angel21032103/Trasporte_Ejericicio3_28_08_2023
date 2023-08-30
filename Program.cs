@@ -6,7 +6,11 @@ internal class Program
     {
 
         //var miTractor = new Tractor();
-        var miAutomóvil = new Automóvil();
+        Console.WriteLine("Infoemcion del Automovil\n");
+        var miAutomovil = new Automóvil();
+
+        Console.WriteLine("Informacion del Trcator\n");
+        var miTractor = new Tractor();
 
     }
 }

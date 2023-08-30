@@ -11,6 +11,21 @@ namespace Trasporte_Ejericicio3_28_08_2023
         public Tractor()
         {
             MostarPrecio("Tafe", 1000);
+            Acelerar();
+            Frenar();
         }
+
+        #region Metodos
+        public override void Acelerar()
+        {
+            base.Acelerar();
+        }
+
+        public override void Frenar()
+        {
+            base.Frenar();
+        }
+
+        #endregion
     }
 }
